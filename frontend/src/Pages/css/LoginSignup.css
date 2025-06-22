@@ -1,0 +1,237 @@
+/* Main wrapper */
+.loginsignup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #fce3fe;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container box */
+.loginsignup-container {
+  background-color: #ffffff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Title */
+.loginsignup-container h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Social login buttons */
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.social-login button {
+  flex: 1;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.social-login button img {
+  width: 18px;
+  height: 18px;
+}
+
+.facebook-btn:hover {
+  background-color: #e7f0ff;
+  border-color: #3b5998;
+}
+
+.google-btn:hover {
+  background-color: #fff5f5;
+  border-color: #db4437;
+}
+
+/* OR divider */
+.or-divider {
+  margin: 15px 0;
+  color: #888;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Input fields */
+.loginsignup-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.loginsignup-fields input {
+  padding: 12px 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.loginsignup-fields input:focus {
+  border-color: #d23f3f;
+}
+
+/* Continue button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #a5f2bc;
+  color: rgb(28, 26, 26);
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #b83232;
+}
+
+/* Already have account? */
+.loginsignup-login {
+  font-size: 14px;
+  margin: 15px 0;
+}
+
+.loginsignup-login span {
+  color: #d23f3f;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* Checkbox + terms */
+.loginsignup-agree {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.loginsignup-agree input {
+  margin-top: 4px;
+}
+.loginsignup-social {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.social-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #171717;
+  border-radius: 8px;
+  background-color: rgb(5, 5, 5);
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+.social-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-btn:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.loginsignup-social {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.social-btn {
+  width: 48%;  /* Each button takes almost half */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-btn:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+\\adding
+.loginsignup-social {
+  display: flex;
+  justify-content: center;
+  gap: 16px; /* space between buttons */
+  margin: 20px 0;
+  flex-wrap: wrap; /* for responsiveness */
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  min-width: 140px;
+  justify-content: center;
+}
+
+.social-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+}
+
+
+
+

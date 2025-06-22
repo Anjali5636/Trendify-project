@@ -1,0 +1,44 @@
+/* Popular section styling */
+.popular {
+  padding: 30px;
+}
+
+.popular h1 {
+  text-align: center;
+  font-size: 28px;
+  /* margin-bottom: 10px; */
+  margin-top: 70px;
+}
+
+.popular hr {
+  width: 100px;
+  height: 3px;
+  background-color: black;
+  border: none;
+  margin: 0 auto 30px auto;
+}
+
+/* Image container - column layout */
+.popular-item {
+  display: flex;
+  flex-direction: row; /* 👉 Column layout (not row) */
+  gap: 20px;              /* 👉 Space between images */
+  align-items: center;    /* 👉 Items should be centered horizontally */
+}
+
+/* Each Item */
+.popular-item > * {
+  width: 300px;         /* 👉 Fixed width for each item */
+  height: auto;
+}
+
+/* Image styling for each item */
+.popular-item img {
+  width: 250px;           /* 👈 Ensures image takes full width of the item */
+  height: 100%;         /* 👈 Fixed height for images */
+  object-fit: cover;     /* 👈 Maintain aspect ratio and avoid stretching */
+  border-radius: 10px;   /* Optional: Round corners for images */
+}
+
+
+

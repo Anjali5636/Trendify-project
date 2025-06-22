@@ -1,0 +1,135 @@
+.productdisplay {
+  display: flex;
+  padding: 40px;
+  gap: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Left side with thumbnails and main image */
+.productdisplay-left {
+  display: flex;
+  gap: 15px;
+}
+
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.productdisplay-img-list img {
+  width: 60px;
+  height: 104px;
+  object-fit: cover;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.productdisplay-img {
+  width: 350px;
+  height: 450px;
+}
+
+.productdisplay-main-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+
+
+.productdisplay-right {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  gap: 12px;
+  padding: 10px;
+}
+
+.product-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.product-rating img {
+  width: 20px;
+  height: 20px;
+}
+
+.product-rating span {
+  font-size: 14px;
+  color: gray;
+}
+
+.product-price-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 16px;
+}
+
+.product-new-price {
+  font-weight: 600;
+  color: black;
+}
+
+.product-old-price {
+  color: gray;
+}
+
+.product-description {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.product-size-section h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.product-sizes {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.product-sizes div {
+  padding: 6px 12px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn {
+  background-color: #f85757;
+  color: white;
+  border: none;
+  padding: 10px 20px; /* Adjust padding to make it smaller */
+  font-size: 14px;     /* Reduce text size */
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content; /* or use a fixed width like 150px if needed
+  margin-top: 20px; */
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #f17575;
+}
+.product-info {
+  font-size: 14px;
+  color: #222;
+}
+
+.product-info span {
+  font-weight: 600;
+}
